@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    width: 300px;
+    height: auto;
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    background-color: purple;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    /* display: block-inline; */
+}
+.Vrapper{
+    padding-right: 5vh;
+    color: whitesmoke;
+}
+.imgmain{
+    margin:10px 10px 10px 10px;
+    display: block;
+    left:5vh;
+    
+    position: relative;
+    /* width: 100%; */
+    float: right;
+}
+.imgchar{
+    margin:5px 5px 5px 5px;
+    display: block;
+    position: relative;
+    float: left;
+}
+.Shrifter{
+    font-size: 50px;
+    text-align: center;
+}
+.elem1,.elem2 {
+    margin:10px 10px 10px 10px;
+    /* background-color: black; */
+
+}
+.backgr{
+    background-color: black;
+    background-image: url('imagines/void-an-unknowable-power.jpg');
+    background-repeat: no-repeat;
+
+}
+.backgrkaysa{
+    background-color: black;
+    background-image: url('imagines/League-of-Legends-Kai-Sa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgrvelcoz{
+    background-color: black;
+    background-image: url('imagines/Velkoz_0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgrchogath{
+    background-color: black;
+    background-image: url('imagines/Chogath_0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link{
+    color:yellow;
+    text-decoration: none;
+}
+a:visited{
+    color:yellow;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+h1,h2,h3{
+    font-size: 5em;
+    text-align: center;
+    color: purple;
+    /* display: inline; */
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+h2{
+    /* color: blueviolet; */
+    position: absolute;
+    left: 130px;
+    bottom: 0px;
+    margin: 0px;
+}
+h3{
+    font-size: 2em;
+}
